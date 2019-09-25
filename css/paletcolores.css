@@ -1,0 +1,36 @@
+/* CSS - Hoja de estilo en cascada */
+/*Códigos de colores de paleta*/
+/* URL de la paleta: http://paletton.com/#uid=30s0b0kt+hXlSoKqdkUD8cEPr76 */
+
+/* No dude en copiar y pegar códigos de color en su aplicación */
+
+
+/*Como códigos hexadecimales*/
+
+:root {
+/* Color primario principal*/
+--color-primary-0: #8F4309;
+--color-primary-1: #C5793E;
+--color-primary-2: #A7591E;
+--color-primary-3: #652C00;
+--color-primary-4: #391900;
+
+ /*Color secundario principal (1)*/
+--color-secundario-1-0:#09425A;
+--color-secundario-1-1:#2B647C;
+--color-secundario-1-2:#175069;
+--color-secundario-1-3:#022D3F;
+--color-secundario-1-4:#011924;
+
+/*Color secundario principal (2)*/
+--color-secundario-2-0:#06613E; 
+--color-secundario-2-1:#2A8563;
+--color-secundario-2-2:#14714E;
+--color-secundario-2-3:#00442A;
+--color-secundario-2-4:#002618;
+
+
+}
+
+/*Generado por Paletton.com © 2002-2014*/
+/*http://paletton.com*/

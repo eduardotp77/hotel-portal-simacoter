@@ -1,0 +1,841 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+video, iframe, audio, img {
+	max-width: 100%;
+	vertical-align:  bottom;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:focus{
+  text-decoration: none;
+}
+a:active{
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  width: 100vw;
+}
+
+body{
+  font-family: sans-serif;
+	font-size: 18px;
+	font-style: italic;
+  font-weight: normal;
+ /* line-height: 1.5rem;*/
+  background-color:#eee;
+  color:#222;
+
+}
+
+li {
+  /*list-style: none;*/
+}
+
+/*///////////////////////////layout */
+.headerContainer, .mainContainer, .footerContainer{
+  width: 100%;
+}
+
+
+.nosotros{
+  width: 90%;
+}
+
+.footerContainer{
+  background-color: var(--color-secundario-1-4)
+}
+
+.nosotros{
+  background-color: red;
+}
+
+/*iconos sociales ///////////////////*/
+.iconsociales{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1em;
+}
+.iconsociales a{
+  color: var(--color-secundario-2-4);
+
+}
+.iconsociales a{
+  padding: .5em;
+  list-style: none;
+  text-decoration: none;
+  margin: 0 .25em;
+}
+.icon_transcicion{
+  box-shadow: 2px 1px 2.5px rgba(255, 255, 255, 0.1);
+  transition: all .7s;
+}
+
+.icon_transcicion{
+  /*padding: .55em .55em;*/
+  border-radius: 50%;
+  background-color: var(--color-secundario-2-2);
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.icon_transcicion:hover{
+  background-color: var(--color-secundario-1-4);
+  cursor: pointer;
+}
+
+.iconsociales a:hover{
+  color: var(--color-secundario-2-1);
+  transition: all .7s;
+}
+/*fin iconos sociales*/
+
+
+/*bannerHeader - detalles//////////// */
+.bannerHeader{
+  width: 100%;
+  background-color: red;
+  margin-left: 0;
+  margin-right: 0:
+
+}
+.imageBanner{
+  margin:auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border:0;
+}
+
+.container-detalles{
+  background-color: var(--color-secundario-2-1);
+  width: 40em;
+  position: absolute;
+  margin-top: -50vh;
+  margin-left: 5em;
+  padding: 1em 0;
+}
+.detalles{
+
+  /*width: 100%;*/
+  /*margin-left: 3em;
+  max-width: 500px;*/
+  /*top: 40px;*/
+  color:white;
+}
+
+.detalles h1{
+  margin:0;
+  font-size: 40px;
+  font-weight: 100;
+  margin-left: 1em;
+}
+
+.detalles p{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.detalles button{
+  padding: 10px 20px;
+  font-size: 16px;
+  background: none;
+  border-style: none;
+  border:1px solid white;
+  color: white;
+  margin-top: 20px;
+  margin:0 1em;
+}
+.detalles a{
+  color:white;
+}
+
+.detalles a:hover{
+  color: black;
+}
+.detalles button:hover{
+  background: white;
+  color: black;
+  a {
+    color:black;
+  }
+}
+
+/*////////////////////////Section Beneficios*/
+.beneficios{
+/*display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 0.5em 0;*/
+
+
+}
+
+.beneficios {
+width: 100%;
+background-color: #797;
+}
+
+ .imgBeneficios{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconBeneficios{
+  width: 100%;
+  margin: .5em 0;
+  
+}
+
+
+.iconBeneficios ul{
+  width: 95%;
+  margin: auto;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #e7e;
+  
+}
+
+.iconBeneficios ul li{
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1em;
+  margin:.5em;
+  width: 20%;
+
+  
+
+
+}
+
+.iconBeneficios ul li i{
+  width: 25%;
+  font-size: 2.5em;
+  color:var(--color-primary-3);
+  
+  margin:0 .125em;
+
+}
+
+.iconBeneficios ul li > span{
+  width: 70%;
+  float:left;
+  color:var(--color-primary-3);
+  padding: .5em;
+  margin:0 .125em;  
+
+}
+
+
+
+
+.videoCorporativo{
+  background-color: green;
+}
+
+
+
+
+
+/*Otro codigo css /////////////////////////*/
+
+.headerContainer, .footerContainer{
+  width: 100%;
+  background-color: var(--color-primary-0); 
+}
+
+.footerContainer{
+  background-color: var(--color-secundario-2-1); 
+  display: flex;
+  justify-content: center;
+
+}
+.mainContainer{
+  width: 100%;
+  margin: auto;
+}
+
+/*menu principal /////////////*/
+
+.navMenu{
+  background-color: var(--color-primary-2);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:flex-end;
+  flex-wrap: wrap;
+  position: sticky;
+}
+
+.navMenu ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 90%;
+  margin-right: 1em;
+
+}
+
+.navMenu ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  display: inline;
+  background-color: var(--color-secundario-1-1);
+  margin:0.125em 1em;
+  border-radius:50px;
+  box-shadow:#999 0.5px 3px 9px 0px;
+}
+
+.navMenu ul li a {
+  display: flex;
+  align-items: center;
+  /*width: 100%;*/
+  justify-content: center;
+  color: white;
+  font-family: verdana;
+  font-weight: bold;
+  font-style: normal;
+  padding: .25em 1em;
+  transition: all .7s;
+}
+
+.navMenu ul li a:hover {
+  background-color: var(--color-secundario-1-4);
+  color: var(--color-secundario-1-1);
+  font-weight: bold;
+  border-radius:50px;
+ 
+}
+
+.navMenu ul li:hover{
+ box-shadow:#011924 0.5px 3px 9px 0px;
+}
+.navMenu ul li.activo{
+ background-color: var(--color-primary-3);
+}
+.navMenu ul li.activo a{
+  color:white;
+}
+
+.navMenu a {
+  text-decoration: none;
+}
+
+.navMenu a:hover {
+  text-decoration: none;
+}
+
+.menuMovil{
+  display: inline-block;
+  padding: 0 0 0 10px;
+  font-size: 18px;
+  background: transparent;
+  margin: 5px 0 27px 0;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-transition: color 400ms, background-color 400ms;
+  -o-transition: color 400ms, background-color 400ms;
+  transition: color 400ms, background-color 400ms;
+}
+
+.menuMovil{
+  text-align: center;
+  color:black;
+}
+
+/*Fin menu Principal*/
+
+
+
+/*///////////////////////////Portada en movimiento*/
+
+.portada-Container{
+  width: 100%;
+  height: 625px;
+  background: #eee;
+  background-image: url(../img/hotel-portal-simacotero-video.jpg);
+  background-size: 100%;
+  animation: movimientos 10s infinite linear alternate;
+
+}
+
+@keyframes movimientos{
+  from{
+        background-position-y: button left;
+        
+    }to{
+        background-position-y: top right;       
+    }
+}
+
+.capa-gradiente{
+  width: 100%;
+  height: 625px;
+  /*position: absolute;
+  background:-webkit-linear-gradient(left, black,#fcf0e6);*/
+  opacity: 0.5;
+}
+
+
+.container-detalles{
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  top:5em;
+  margin: auto;
+}
+
+.detalles{
+  /*width: 100%;*/
+  /*margin-left: 3em;
+  max-width: 500px;*/
+  /*top: 40px;*/
+  color:white;
+}
+
+.detalles h1{
+  margin:0;
+  font-size: 40px;
+  font-weight: 100;
+  margin-left: 1em;
+}
+
+.detalles p{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.detalles button{
+  padding: 10px 20px;
+  font-size: 16px;
+  background: none;
+  border-style: none;
+  border:1px solid white;
+  color: white;
+  margin-top: 20px;
+  margin:0 1em;
+}
+.detalles a{
+  color:white;
+}
+
+.detalles a:hover{
+  color: black;
+}
+.detalles button:hover{
+  background: white;
+  color: black;
+  a {
+    color:black;
+  }
+}
+
+.galeryMain{
+  padding: 1em;
+  margin: 1em;
+  margin:auto;
+  width: 90%;
+}
+
+.galeryMain{
+  
+ 
+}
+
+
+.bg_textSlider{
+  background-color: var(--color-secundario-2-1);
+  width: 700px;
+  height: auto;
+  position: absolute;
+  top: 8%;
+  margin-left: 5em;
+  color:white;
+  padding: 1em;
+  opacity: .9;
+}
+.bg_textSlider a{
+  color:white;
+}
+
+.bg_textSlider a:active{
+  background-color:var(--color-secundario-2-1);
+}
+
+.bg_textSlider h1{
+  margin-left: .5em;
+  font-size: 2.5em;
+}
+.bg_textSlider h2{
+  margin-left: .5em;
+}
+
+.bg_textSlider p{
+  line-height: 1.25em;
+}
+
+.btn{
+  width: 8em;
+  padding: .25em;
+  background-color: var(--color-secundario-1-4);
+  color: var(--color-primary-1);
+  font-size: 1em;
+  border-radius: 50px;
+
+}
+
+#btnDark.btn{
+  background-color: var(--color-primary-0);
+
+}
+.btn:hover{
+  color:white;
+}
+
+
+/*Barra logo //////////////////*/
+.logoContainer{
+  /*padding: .5em 0;*/
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  z-index: 999;
+}
+
+.logoContainer, .navMenu{
+  background-color: var(--color-primary-1);
+}
+
+.iconsociales, .logoImage, .button_barralogo{
+  
+  margin: .5em .25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoImage a{
+  width: 250px;
+  top:9px;
+  margin-left: 1em;
+  /*position: absolute;*/
+  z-index: 99;
+}
+
+.button_barralogo{
+  display: inline;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.iconsociales{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1em;
+}
+.iconsociales a{
+  color: var(--color-secundario-2-4);
+
+}
+.iconsociales a{
+  padding: .5em;
+  list-style: none;
+  text-decoration: none;
+  margin: 0 .25em;
+}
+.icon_transcicion{
+  box-shadow: 2px 1px 2.5px rgba(255, 255, 255, 0.1);
+  transition: all .7s;
+}
+
+.icon_transcicion{
+  /*padding: .55em .55em;*/
+  border-radius: 50%;
+  background-color: var(--color-secundario-2-2);
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.icon_transcicion:hover{
+  background-color: var(--color-secundario-1-4);
+  cursor: pointer;
+}
+
+.iconsociales a:hover{
+  color: var(--color-secundario-2-1);
+  transition: all .7s;
+}
+/*fin iconos sociales*/
+
+/*Dieño contenido*/
+
+.contentCategory{
+  width: 90%;
+  /*max-width: 1200px;*/
+  /*background-color: red;*/
+  margin: 1em auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+}
+
+.h2_contentCategory{
+  text-align: center;
+}
+.category{
+  margin: .5em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-secundario-1-1);
+  padding: .5em;
+
+
+}
+
+.category h2,p,button{
+
+}
+.mapaHotel{
+  text-align: center;
+}
+
+.beneficios img{
+  width: 400px;
+}
+
+/*////////////////////////Section Beneficios*/
+.beneficios{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 0.5em 0;
+
+}
+
+.beneficios {
+width: 100%;
+}
+
+.imgBeneficios{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconBeneficios{
+  width: 100%;
+  margin: .5em 0;
+  
+}
+
+
+.iconBeneficios ul{
+  
+  margin: auto;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+
+.iconBeneficios ul li{
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1em;
+  margin:.5em;
+  width: 20%;
+
+}
+
+.iconBeneficios ul li i{
+  width: 25%;
+  font-size: 2.5em;
+  color:var(--color-primary-3);
+  
+  margin:0 .125em;
+
+}
+
+.iconBeneficios ul li > span{
+  width: 70%;
+  float:left;
+  color:var(--color-primary-3);
+  padding: .5em;
+  margin:0 .125em;  
+
+}
+
+/*Diseño footer*/
+
+
+.itemFooter{
+  width: 90%;
+  margin:2em 0;
+
+
+}
+
+/*Galery conocenos ///////////////////*/
+.KnowContainer{
+  width:95%;
+  margin:auto;
+  background-color: #393;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.KnowContainer a{
+  color:red;
+  text-decoration: none;
+}
+.knowContainer a:hover{
+  color:black;
+}
+
+.menuButton{
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1em;
+  padding: 1.5em;
+  background-color: yellow;
+  width: 100%;
+
+}
+.menuButton>li{
+  margin: 0 .25em;
+}
+
+.btnGalery{
+  list-style: none;
+  width: 8em;
+  padding: .25em;
+  color: var(--color-primary-1);
+  font-size: 1em;
+  border-radius: 50px;
+  background-color:white;
+
+}
+
+.btnGalery:hover{
+  background-color: var(--color-primary-4);
+}
+.btnGalery:active{
+ background-color: var(--color-primary-3);
+ 
+}
+.btnGalery:focus{
+  background-color: var(--color-primary-4);
+}
+
+
+
+
+.imgGalery figure{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background-color: red;
+  transition: all .7s;
+}
+
+.contentGalery{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+}
+.contentGalery img{
+  width: 30%;
+  margin: .25em;
+  
+  
+}
+
+
+
+/*Informacion Hotel - infohotel*/
+
+.inforHotel{
+  width: 90%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding: 1em;
+  border: 0;
+  margin: 1em;
+}
+.tarifasHabitacion{
+  width: 25%;
+ margin:1em;
+ padding 1em;
+}
+.tarifasHabitacion img{
+ width:100%;
+}
+.tarifasHabitacion h4,p{
+ width:90%;
+ margin:1em auto;
+}
+.tarifasHabitacion h4,h3{
+ text-align:center;
+}
+.tarifasHabitacion >.price{
+ margin:1em 0;
+ text-align:center;
+}
+
+.tarifasHabitacion ul,li{
+ line-height:1.5em;
+}
+
+
+
+
+/*fin Otro codigo css*/
